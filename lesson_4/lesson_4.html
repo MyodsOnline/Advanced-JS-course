@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson_4</title>
+    <script defer src="lesson_4.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="task_1">
+        <div  class="halfSize">
+            <textarea id="inp" rows="10" placeholder="input text here, for example: She said, 'You'd better stay at home'!"></textarea>
+            <button id="btn">Replace</button>
+        </div>
+        <div class="halfSize right">
+            <p id="outp"></p>
+        </div>
+    </div>
+    <div id="task_2">
+<!--         <form method="post"> -->
+            <label  class="center" for="name">Type your name:
+                <input class="center_inp" type="text" id="name" placeholder="Andrew Smith" required>
+                <p class="hidden">You've made a mistake!</p>
+            </label>
+            <label  class="center" for="number">Type your number:
+                <input class="center_inp" type="tel" id="number" placeholder="+7(000)000-0000" required>
+                <p class="hidden">You've made a mistake!</p>
+            </label>
+            <label  class="center" for="email">Your e-mail:
+                <input class="center_inp" type="email" id="email" placeholder="mymail@mail.ru" required>
+                <p class="hidden">You've made a mistake!</p>
+            </label>
+            <label  class="center" for="text">What you whant to say:
+                <textarea class="center_inp more_hight" rows="10" id="text"></textarea>
+            </label>
+            <button class="alignMeRight" id="btn_val">Отправить</button>
+<!--         </form> -->
+    </div>
+</body>
+</html>
